@@ -4,6 +4,7 @@ This is a web tool collection about time, currently including a digital clock to
 ## Four pages
 
 General stylesheet: style.css
+
 Background image: steve-johnson-TnjzgonRFPU-unsplash.jpg retrieved from https://unsplash.com
 
 - Homepage: index.html/homepage.css/homepage.js
