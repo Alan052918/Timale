@@ -8,7 +8,7 @@ General stylesheet: style.css
 Background image: steve-johnson-TnjzgonRFPU-unsplash.jpg retrieved from https://unsplash.com
 
 - Homepage: index.html/homepage.css/homepage.js
-    - Display local Date, time, and city name in seconds of the current position.
+    - Display local Date, and time in seconds of the current position.
     - Click on "Timale" to return to homepage at all times.
 - Timer: timer.html/timer.css/timer.js
     - Set time period for timing by entering minutes and seconds in the corresponding input fields.
