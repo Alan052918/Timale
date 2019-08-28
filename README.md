@@ -31,11 +31,5 @@ Background image: steve-johnson-TnjzgonRFPU-unsplash.jpg retrieved from https://
       clicking on "STOP") in a poped window. Notice that the digital clock display is suspended
       when the window pop up, but the recording is continued in the background.
 - About: about.html/about.css
-    - Content:
-'''
-                                A Time Tool collection
-                                     presented by
-                                       Junda Ai
-'''
 
 All source codes are originally written by Junda Ai.
