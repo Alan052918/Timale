@@ -1,0 +1,245 @@
+body {
+    font-family: 'Helvetica Neue';
+}
+
+img {
+    /* position */
+    z-index: 0;
+    position: fixed;
+    left: 0vw;
+    top: 0vw;
+    /* display */
+    max-width: 100vw;
+    max-height: 100vw;
+    line-height: 0;
+    padding: 0;
+}
+
+.button {
+    z-index: 2;
+    position: fixed;
+}
+
+#outerFace {
+    /* position */
+    z-index: 1;
+    position: fixed;
+    left: 5vw;
+    top: -14.3vw;
+    /* display */
+    width: 90%;
+    height: 0;
+    text-align: center;
+    line-height: 0;
+    padding: 45% 0;
+    border-radius: 90%;
+    background: #ffffff;
+    opacity: 0.5;
+}
+
+#innerFace {
+    /* position */
+    z-index: 2;
+    position: fixed;
+    left: 20vw;
+    top: 1.3vw;
+    /* font */
+    font-size: 7vw;
+    font-weight: 450;
+    color: #707070;
+    /* display */
+    width: 60%;
+    height: 0;
+    text-align: center;
+    line-height: 0;
+    padding: 30% 0;
+    border-radius: 60%;
+    background: #ffffff;
+    opacity: 0.8;
+}
+
+#icon {
+    /* position */
+    z-index: 2;
+    position: fixed;
+    left: 0vw;
+    top: 0vw;
+    /* font */
+    font-family: 'AppleGothic';
+    font-size: 3vw;
+    font-weight: 100;
+    /* display */
+    margin-left: 2vw;
+    margin-top: 2vw;
+    color: #707070;
+}
+
+#icon:hover {
+    color: #000000;
+}
+
+#clockDisplay {
+    /* position */
+    z-index: 3;
+    position: fixed;
+    left: 36.4vw;
+    top: 27.1vw;
+    /* font */
+    font-size: 7vw;
+    font-weight: 450;
+    color: #707070;
+    text-align: center;
+}
+
+/* FIXME: center text when changing the city */
+#upperText {
+    /* position */
+    z-index: 3;
+    position: fixed;
+    left: 39vw;
+    top: 23vw;
+    /* font */
+    font-size: 3vw;
+    color: #707070;
+}
+
+/* FIXME: center text when changing the city */
+#lowerText {
+    /* position */
+    z-index: 3;
+    position: fixed;
+    left: 43.5vw;
+    top: 36vw;
+    /* font */
+    font-size: 3vw;
+    color: #707070;
+}
+
+#timer {
+    /* position */
+    z-index: 2;
+    left: 10.5vw;
+    top: 8.5vw;
+    /* font */
+    font-weight: 500;
+    /* display */
+    width: 12vw;
+    height: 12vw;
+    border-radius: 6vw;
+    font-size: 2vw;
+    color: #707070;
+    line-height: 12vw;
+    text-align: center;
+    background: #ffffff;
+    opacity: 0.8;
+}
+
+#timer:hover {
+    color: #000000;
+    filter: opacity(0.9);
+}
+
+#na-laps {
+    /* position */
+    z-index: 2;
+    left: 77.5vw;
+    top: 8.5vw;
+    /* font */
+    font-weight: 500;
+    /* display */
+    width: 12vw;
+    height: 12vw;
+    border-radius: 6vw;
+    font-size: 2vw;
+    color: #707070;
+    line-height: 12vw;
+    text-align: center;
+    background: #ffffff;
+    opacity: 0.8;
+}
+
+#stopwatch {
+    /* position */
+    z-index: 2;
+    left: 6.5vw;
+    top: 25vw;
+    /* font */
+    font-weight: 500;
+    /* display */
+    width: 12vw;
+    height: 12vw;
+    border-radius: 6vw;
+    font-size: 2vw;
+    color: #707070;
+    line-height: 12vw;
+    text-align: center;
+    background: #ffffff;
+    opacity: 0.8;
+}
+
+#stopwatch:hover {
+    color: #000000;
+    filter: opacity(0.9);
+}
+
+#na-mark-set {
+    /* position */
+    z-index: 2;
+    left: 81.5vw;
+    top: 25vw;
+    /* font */
+    font-weight: 500;
+    /* display */
+    width: 12vw;
+    height: 12vw;
+    border-radius: 6vw;
+    font-size: 2vw;
+    color: #707070;
+    line-height: 12vw;
+    text-align: center;
+    background: #ffffff;
+    opacity: 0.8;
+}
+
+#about {
+    /* position */
+    z-index: 2;
+    left: 10.5vw;
+    top: 42vw;
+    /* font */
+    font-weight: 500;
+    /* display */
+    width: 12vw;
+    height: 12vw;
+    border-radius: 6vw;
+    font-size: 2vw;
+    color: #707070;
+    line-height: 12vw;
+    text-align: center;
+    background: #ffffff;
+    opacity: 0.8;
+}
+
+#about:hover {
+    color: #000000;
+    filter: opacity(0.9);
+}
+
+#na-stop {
+    /* position */
+    z-index: 2;
+    left: 77.5vw;
+    top: 42vw;
+    /* font */
+    font-weight: 500;
+    /* display */
+    width: 12vw;
+    height: 12vw;
+    border-radius: 6vw;
+    font-size: 2vw;
+    color: #707070;
+    line-height: 12vw;
+    text-align: center;
+    background: #ffffff;
+    opacity: 0.8;
+}

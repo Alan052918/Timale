@@ -1,0 +1,62 @@
+pre {
+    font-family: 'Helvetica Neue';
+    text-align: center;
+}
+
+#clockDisplay {
+    left: 29.6vw;
+    top: 27.1vw;
+}
+
+#clockDisplay:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+#lowerText {
+    left: 28.5vw;
+    top: 33vw;
+}
+
+#stopwatch {
+    color: #ffffff;
+    background: #707070;
+}
+
+#na-laps {
+    color: #ffffff;
+    background: #707070;
+    cursor: pointer;
+}
+
+#na-laps-back:hover {
+    color: #000000;
+    filter: opacity(0.9);
+}
+
+#na-mark-set {
+    color: #ffffff;
+    background: #707070;
+    cursor: pointer;
+}
+
+#na-mark-set:hover {
+    color: #000000;
+    filter: opacity(0.9);
+}
+
+#na-mark-set:active {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#na-stop {
+    color: #ffffff;
+    background: #707070;
+    cursor: pointer;
+}
+
+#na-stop:hover {
+    color: #000000;
+    filter: opacity(0.9);
+}

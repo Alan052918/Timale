@@ -1,0 +1,60 @@
+pre {
+    font-family: 'Helvetica Neue';
+    text-align: center;
+}
+
+input {
+    width: 4vw;
+}
+
+#clockDisplay {
+    z-index: 4;
+    left: 36.4vw;
+    top: 27.1vw;
+}
+
+#clockDisplay:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+#upperText {
+    left: 35vw;
+    top: 23vw;
+}
+
+#lowerText {
+    left: 32.5vw;
+    top: 33vw;
+}
+
+#lowerText:hover {
+    color: #000000;
+}
+
+#timer {
+    color: #ffffff;
+    background-color: #707070;
+}
+
+#na-mark-set {
+    color: #ffffff;
+    background-color: #707070;
+}
+
+#na-mark-set:hover {
+    color: #000000;
+    filter: opacity(0.9);
+    cursor: pointer;
+}
+
+#na-stop {
+    color: #ffffff;
+    background-color: #707070;
+}
+
+#na-stop:hover {
+    color: #000000;
+    filter: opacity(0.9);
+    cursor: pointer;
+}
